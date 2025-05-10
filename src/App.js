@@ -8,7 +8,7 @@ import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 
 const App = () => {
-  // Changed default dark mode to false since the Credex design uses light theme
+  
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
