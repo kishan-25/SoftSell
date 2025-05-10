@@ -1,7 +1,7 @@
 # SoftSell - Software License Marketplace
 
 ## Project Overview
-SoftSell is a responsive, single-page marketing website for a fictional software resale startup. The platform serves as a marketplace for buying and selling software licenses, offering secure transactions backed by escrow protection and AI-powered verification.
+SoftSell is a responsive, marketing website for a fictional software resale startup. The platform serves as a marketplace for buying and selling software licenses, offering secure transactions backed by escrow protection and AI-powered verification.
 
 ## Features Implemented
 
