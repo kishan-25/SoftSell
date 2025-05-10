@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# SoftSell - Software License Marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+SoftSell is a responsive, single-page marketing website for a fictional software resale startup. The platform serves as a marketplace for buying and selling software licenses, offering secure transactions backed by escrow protection and AI-powered verification.
 
-## Available Scripts
+## Live Demo
+[View Live Demo](#) <!-- Add your deployed URL here when available -->
 
-In the project directory, you can run:
+## Features Implemented
 
-### `npm start`
+### 1. Responsive UI Components
+- **Navbar**: Fully responsive navigation with mobile hamburger menu and dark/light mode toggle
+- **Hero Section**: Dynamic headline with animation effects and clear call-to-action buttons
+- **How It Works**: Three-step process with icons and descriptions
+- **Why Choose Us**: Four key features with icons and descriptions
+- **Testimonials**: Customer reviews with star ratings
+- **Contact Form**: Complete form with validation and success feedback
+- **Footer**: Comprehensive footer with contact details and navigation links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Technical Features
+- **Modern React Implementation**: Functional components with React Hooks
+- **Responsive Design**: Mobile-first approach with responsive breakpoints
+- **Dark/Light Mode**: Complete theme toggle functionality throughout the app
+- **Form Validation**: Frontend validation for the contact form
+- **Animation Effects**: Using Framer Motion for engaging UI interactions
+- **Component Architecture**: Modular and reusable component structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Design Elements
+- **Color Scheme**: 
+  - Light Mode: Lime green accent with black/white contrast
+  - Dark Mode: Blue accent with dark gray background
+- **Typography**: Clean hierarchy with varying weights for readability
+- **Icons**: Lucide React icons for consistent visual language
+- **Motion Design**: Subtle animations to enhance user experience
+- **Visual Feedback**: Interactive elements provide feedback on hover/click
 
-### `npm test`
+## Tech Stack
+- **Framework**: React.js
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
+- **Styling**: Tailwind CSS
+- **Code Structure**: ES6+, modular components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Implementation Details
 
-### `npm run build`
+### Responsive Navigation
+The navigation adjusts for different screen sizes, with a hamburger menu on mobile and expanded navigation on desktop. The dark mode toggle persists across all views.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Form Validation
+The contact form includes:
+- Required field validation
+- Email format validation
+- Success state feedback
+- Form reset functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Animation System
+Animations are implemented throughout the site:
+- Entrance animations for section headers
+- Hover effects on interactive elements
+- Text rotation in the hero section
+- Staggered animations for list items
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Accessibility Considerations
+- Semantic HTML structure
+- ARIA labels for interactive elements
+- Sufficient color contrast in both themes
+- Keyboard navigable components
 
-### `npm run eject`
+## Design Choices
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Using Lime Green and Blue as Brand Colors
+The color scheme was chosen to convey trust (blue in dark mode) and freshness/value (lime in light mode), important qualities for a marketplace dealing with software licenses.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Animated Hero Text
+The rotating words in the hero section ("Excitement", "Discounts", "Deals") immediately communicate the value proposition without requiring users to scroll.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Card-Based Content Layout
+Information is presented in card-based components to chunk content into digestible pieces, making it easier for users to scan and understand the offering.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Visual Progress Indicators
+The "How It Works" section uses visual connectors between steps to clearly illustrate the process flow, helping users understand the service quickly.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Running Locally
+1. Clone the repository:
+```bash
+git clone https://github.com/kishan-25/SoftSell.git
+```
+2. Install dependencies:
+```bash
+cd softsell
+npm install
+```
+3. Start the development server:
+```bash
+npm start
+```
