@@ -3,9 +3,6 @@
 ## Project Overview
 SoftSell is a responsive, single-page marketing website for a fictional software resale startup. The platform serves as a marketplace for buying and selling software licenses, offering secure transactions backed by escrow protection and AI-powered verification.
 
-## Live Demo
-[View Live Demo](#) <!-- Add your deployed URL here when available -->
-
 ## Features Implemented
 
 ### 1. Responsive UI Components
